@@ -1,0 +1,49 @@
+package org.firstinspires.ftc.teamcode;
+
+import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
+import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
+import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
+import com.qualcomm.robotcore.hardware.DcMotor;
+import com.qualcomm.robotcore.util.ElapsedTime;
+
+@Autonomous(name="Base", group="Linear OpMode")
+@Disabled
+class timer{
+    public static Object reset;
+    public ElapsedTime     timer = new ElapsedTime();
+
+}
+class MoveForward {
+
+    public MoveForward(int time){
+    }
+}
+class MoveBack{
+    public MoveBack(int time){
+
+    }
+class StrafeLeft{
+        public StrafeLeft(int time){
+
+        }
+}
+class  StrafeRight{
+        public StrafeRight(int time){
+
+        }
+}
+class Input {
+        public Input(int time){
+            
+        }
+}
+public class BaseAuton extends LinearOpMode {
+
+    // Declare OpMode members for each of the 4 motors.
+
+    @Override
+    public void runOpMode() throws InterruptedException {
+
+    }}}
+
